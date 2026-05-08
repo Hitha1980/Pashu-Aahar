@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="16dp"
+    android:background="@drawable/card_bg"
+    android:layout_margin="12dp">
+
+    <TextView
+        android:id="@+id/tag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="BEST VALUE"
+        android:textColor="#FF9800"
+        android:textStyle="bold"
+        android:textSize="12sp"
+        android:visibility="gone"/>
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/planTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Low Cost Plan"
+        android:textStyle="bold"
+        android:textSize="18sp"/>
+
+    <!-- Price -->
+    <TextView
+        android:id="@+id/planPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="₹85/day"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"/>
+
+    <!-- Feed Chips -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp">
+
+        <TextView
+            android:id="@+id/feed1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chip_bg"
+            android:text="🌽 Maize"
+            android:padding="6dp"/>
+
+        <TextView
+            android:id="@+id/feed2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/chip_bg"
+            android:text="🥜 Cottonseed"
+            android:padding="6dp"
+            android:layout_marginStart="8dp"/>
+    </LinearLayout>
+
+    <!-- Protein -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Protein"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:id="@+id/proteinBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="70"/>
+
+    <!-- Energy -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Energy"
+        android:layout_marginTop="8dp"/>
+
+    <ProgressBar
+        android:id="@+id/energyBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="80"/>
+
+    <!-- Save Button -->
+    <Button
+        android:id="@+id/saveBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Plan"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="#1B5E20"
+        android:textColor="#FFFFFF"/>
+
+</LinearLayout>

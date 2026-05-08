@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary_dark">#1B3922</color>
+    <color name="primary_light">#E8F5E9</color>
+    <color name="accent_lime">#C5E1A5</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="text_secondary">#757575</color>
+    <color name="divider">#EEEEEE</color>
+    <color name="orange_action">#F57C00</color>
+    <color name="green_action">#388E3C</color>
+    <color name="splash_bg">#E8F5E9</color>
+</resources>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/primary_light"
+    android:padding="32dp">
+
+    <Button
+        android:id="@+id/langBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/language"
+        android:layout_gravity="end"
+        android:backgroundTint="@color/primary_dark"
+        android:textColor="@color/white"
+        app:cornerRadius="8dp"
+        android:layout_marginBottom="16dp"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_marginBottom="24dp"
+        android:contentDescription="App Logo"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/primary_dark"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_subtitle"
+        android:textSize="16sp"
+        android:textColor="@color/text_secondary"
+        android:layout_marginBottom="32dp"
+        android:gravity="center"/>
+
+    <Button
+        android:id="@+id/startBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/start"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/primary_dark"
+        android:textColor="@color/white"
+        app:cornerRadius="28dp"
+        android:layout_marginBottom="12dp"
+        app:icon="@android:drawable/ic_input_add"
+        app:iconGravity="textStart"/>
+
+    <Button
+        android:id="@+id/historyBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/feed_history"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="#388E3C"
+        android:textColor="@color/white"
+        app:cornerRadius="28dp"
+        android:layout_marginBottom="12dp"
+        app:icon="@android:drawable/ic_menu_recent_history"
+        app:iconGravity="textStart"/>
+
+    <Button
+        android:id="@+id/dashboardBtnMain"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/farm_dashboard"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/green_action"
+        android:textColor="@color/white"
+        app:cornerRadius="28dp"
+        android:layout_marginBottom="12dp"
+        app:icon="@android:drawable/ic_menu_sort_by_size"
+        app:iconGravity="textStart"/>
+
+    <Button
+        android:id="@+id/remindersBtn"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="@string/reminders"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/orange_action"
+        android:textColor="@color/white"
+        app:cornerRadius="28dp"
+        app:icon="@android:drawable/ic_popup_reminder"
+        app:iconGravity="textStart"/>
+
+</LinearLayout>

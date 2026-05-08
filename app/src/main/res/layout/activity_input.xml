@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/primary_light">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary_dark"
+            android:layout_marginBottom="24dp"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_marginBottom="24dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="20dp">
+
+                <EditText
+                    android:id="@+id/nameInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Cow Name (e.g. Gauri)"
+                    android:inputType="textPersonName"
+                    android:layout_marginBottom="16dp"
+                    android:padding="12dp"
+                    android:background="@android:drawable/editbox_background_normal"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/breed"
+                    android:textColor="@color/text_secondary"
+                    android:layout_marginBottom="8dp"/>
+
+                <Spinner
+                    android:id="@+id/breedSpinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginBottom="16dp"
+                    android:background="@android:drawable/btn_dropdown"/>
+
+                <EditText
+                    android:id="@+id/ageInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/age"
+                    android:inputType="number"
+                    android:layout_marginBottom="16dp"
+                    android:padding="12dp"
+                    android:background="@android:drawable/editbox_background_normal"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginBottom="16dp">
+
+                    <EditText
+                        android:id="@+id/weightInput"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:hint="@string/weight"
+                        android:inputType="number"
+                        android:padding="12dp"
+                        android:background="@android:drawable/editbox_background_normal"/>
+
+                    <ImageButton
+                        android:id="@+id/micBtn"
+                        android:layout_width="48dp"
+                        android:layout_height="48dp"
+                        android:src="@android:drawable/ic_btn_speak_now"
+                        android:background="?attr/selectableItemBackgroundBorderless"
+                        android:layout_marginStart="8dp"
+                        android:contentDescription="Voice Input"/>
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/milkInput"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/milk"
+                    android:inputType="number"
+                    android:padding="12dp"
+                    android:background="@android:drawable/editbox_background_normal"/>
+
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <Button
+            android:id="@+id/calcBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="@string/calculate"
+            android:backgroundTint="@color/green_action"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <Button
+            android:id="@+id/logMilkBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:text="Log Daily Milk"
+            android:backgroundTint="#2196F3"
+            android:textColor="@color/white"
+            app:cornerRadius="12dp"
+            android:layout_marginBottom="12dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/chatBtn"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="@string/ask_vet"
+                android:backgroundTint="@color/orange_action"
+                android:textColor="@color/white"
+                app:cornerRadius="12dp"
+                android:layout_marginEnd="6dp"/>
+
+            <Button
+                android:id="@+id/tipsBtn"
+                android:layout_width="0dp"
+                android:layout_height="56dp"
+                android:layout_weight="1"
+                android:text="@string/tips"
+                android:backgroundTint="@color/primary_dark"
+                android:textColor="@color/white"
+                app:cornerRadius="12dp"
+                android:layout_marginStart="6dp"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

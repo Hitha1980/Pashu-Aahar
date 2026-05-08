@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">Pashu-Aahar</string>
+    <string name="app_subtitle">Smart Cattle Feed Management</string>
+
+    <string name="start">Start</string>
+    <string name="breed">Breed</string>
+    <string name="age">Age</string>
+    <string name="weight">Weight</string>
+    <string name="milk">Milk Yield</string>
+
+    <string name="calculate">Calculate</string>
+    <string name="ask_vet">Pashu-Maitra</string>
+    <string name="tips">Veterinary Tips</string>
+
+    <string name="feed_analysis">Feed Analysis</string>
+    <string name="recommended_recipe">RECOMMENDED RECIPE</string>
+    <string name="calculating">Calculating...</string>
+    <string name="thinking">Thinking...</string>
+    <string name="monthly_savings">Estimated Monthly Savings</string>
+
+    <string name="recipe_template">Recipe:\nMix %1$dkg Maize + %2$dkg Cake\n\nCost: ₹%3$d\nMarket: ₹%4$d\nSave: ₹%5$d</string>
+
+    <string name="language">Language / ಭಾಷೆ</string>
+
+    <string name="ask_hint">Ask about your cow...</string>
+    <string name="ask_button">Ask</string>
+    <string name="response_milk">Increase protein feed and hydration.</string>
+    <string name="response_fever">Possible infection. Contact nearby vet.</string>
+    <string name="response_default">Provide clean water and balanced feed.</string>
+
+    <string name="breed_jersey">Jersey</string>
+    <string name="breed_desi">Desi</string>
+    <string name="tips_search_query">cattle feeding tips</string>
+
+    <string name="farm_dashboard">Farm Performance</string>
+    <string name="view_dashboard">View Dashboard</string>
+    <string name="milk_yield_litres">Milk Yield (Litres)</string>
+    <string name="feed_cost_rs">Feed Cost (₹)</string>
+    <string name="daily_profit_rs">Daily Profit (₹)</string>
+
+    <string name="reminders">Health Reminders</string>
+    <string name="vaccination">Vaccination</string>
+    <string name="deworming">Deworming</string>
+    <string name="set_reminder">Set Reminder</string>
+    <string name="reminder_set">Reminder set successfully!</string>
+
+    <string name="seasonal_advice">Seasonal Advice</string>
+    <string name="suggestion_summer">Increase water, add green fodder, avoid heat stress.</string>
+    <string name="suggestion_monsoon">Ensure dry fodder, prevent fungal infections.</string>
+    <string name="suggestion_winter">Increase energy feed like maize and oil cakes.</string>
+
+    <string name="monthly_report">Monthly Report</string>
+    <string name="total_cost">Total Cost</string>
+    <string name="market_cost">Market Cost</string>
+    <string name="savings">Savings</string>
+    <string name="market_cost_label">Market Cost</string>
+    <string name="savings_label">Savings</string>
+    <string name="cost_label">Cost</string>
+    <string name="save_label">You Save</string>
+    <string name="feed_history">Feed History</string>
+
+    <string name="maize">Maize</string>
+    <string name="cottonseed">Cottonseed Cake</string>
+    <string name="mineral_mix">Mineral Mix</string>
+    <string name="kg_unit">%1$d kg</string>
+
+    <string name="low_cost_plan">Low Cost Plan</string>
+    <string name="balanced_plan">Balanced Plan</string>
+    <string name="high_yield_plan">High Yield Plan</string>
+    <string name="best_value">BEST VALUE</string>
+    <string name="recommended">RECOMMENDED</string>
+    <string name="max_profit">MAX PROFIT</string>
+    <string name="plan_saved">Plan Saved</string>
+
+    <string name="no_milk_data">No milk data logged yet</string>
+    <string name="no_data_available">No data available</string>
+    <string name="milk_trend_description">Last 7 Days Milk Trend</string>
+    <string name="cost_profit_label">Cost vs Profit (Daily Avg)</string>
+    <string name="cost">Cost</string>
+    <string name="profit">Profit</string>
+    <string name="daily_avg_rs">Daily Average (₹)</string>
+
+    <string name="msg_vaccination">Time for cow vaccination</string>
+    <string name="msg_deworming">Time for cow deworming</string>
+    <string name="unnamed_cow">Unnamed Cow</string>
+    <string name="please_enter_name">Please enter a name</string>
+    <string name="cow_added_success">Cow Added Successfully!</string>
+    <string name="milk_logged_msg">%1$s milk logged: %2$s L</string>
+    <string name="fill_all_fields">Please fill all fields</string>
+    <string name="cow_saved">Cow Saved</string>
+
+    <string name="search_hint">Search by cow name or date</string>
+    <string name="log_daily_milk">Log Daily Milk</string>
+    <string name="morning_milk">Morning Milk (Litres)</string>
+    <string name="evening_milk">Evening Milk (Litres)</string>
+    <string name="save_morning_log">Save Morning Log</string>
+    <string name="save_evening_log">Save Evening Log</string>
+    <string name="view_analytics">View Analytics</string>
+</resources>

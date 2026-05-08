@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">ಪಶು ಆಹಾರ</string>
+    <string name="app_subtitle">ಸ್ಮಾರ್ಟ್ ಜಾನುವಾರು ಆಹಾರ ನಿರ್ವಹಣೆ</string>
+
+    <string name="start">ಪ್ರಾರಂಭಿಸಿ</string>
+    <string name="breed">ತಳಿ</string>
+    <string name="age">ವಯಸ್ಸು</string>
+    <string name="weight">ತೂಕ</string>
+    <string name="milk">ಹಾಲು ಉತ್ಪಾದನೆ</string>
+
+    <string name="calculate">ಲೆಕ್ಕ ಹಾಕಿ</string>
+    <string name="ask_vet">ಪಶು-ಮೈತ್ರ</string>
+    <string name="tips">ಪಶುವೈದ್ಯಕೀಯ ಸಲಹೆಗಳು</string>
+
+    <string name="feed_analysis">ಮೇವು ವಿಶ್ಲೇಷಣೆ</string>
+    <string name="recommended_recipe">ಶಿಫಾರಸು ಮಾಡಿದ ಪಾಕವಿಧಾನ</string>
+    <string name="calculating">ಲೆಕ್ಕಾಚಾರ ಮಾಡಲಾಗುತ್ತಿದೆ...</string>
+    <string name="thinking">ಯೋಚಿಸುತ್ತಿದೆ...</string>
+    <string name="monthly_savings">ಅಂದಾಜು ಮಾಸಿಕ ಉಳಿತಾಯ</string>
+
+    <string name="recipe_template">ಪಾಕವಿಧಾನ:\n%1$d ಕೆಜಿ ಮೆಕ್ಕೆಜೋಳ + %2$d ಕೆಜಿ ಹಿಂಡಿ ಮಿಶ್ರಣ ಮಾಡಿ\n\nವೆಚ್ಚ: ₹%3$d\nಮಾರುಕಟ್ಟೆ ಬೆಲೆ: ₹%4$d\nಉಳಿತಾಯ: ₹%5$d</string>
+
+    <string name="language">ಭಾಷೆ (Language)</string>
+
+    <string name="ask_hint">ನಿಮ್ಮ ಹಸುವಿನ ಬಗ್ಗೆ ಕೇಳಿ...</string>
+    <string name="ask_button">ಕೇಳಿ</string>
+    <string name="response_milk">ಪ್ರೋಟೀನ್ ಆಹಾರ ಮತ್ತು ನೀರನ್ನು ಹೆಚ್ಚಿಸಿ.</string>
+    <string name="response_fever">ಸೋಂಕಿನ ಸಾಧ್ಯತೆಯಿದೆ. ಹತ್ತಿರದ ಪಶುವೈದ್ಯರನ್ನು ಸಂಪರ್ಕಿಸಿ.</string>
+    <string name="response_default">ಶುದ್ಧ ನೀರು ಮತ್ತು ಸಮತೋಲಿತ ಆಹಾರವನ್ನು ಒದಗಿಸಿ.</string>
+
+    <string name="breed_jersey">ಜರ್ಸಿ</string>
+    <string name="breed_desi">ದೇಶಿ</string>
+    <string name="tips_search_query">ಹಸು ಸಾಕಣೆ ಸಲಹೆಗಳು</string>
+
+    <string name="farm_dashboard">ಫಾರ್ಮ್ ಕಾರ್ಯಕ್ಷಮತೆ</string>
+    <string name="view_dashboard">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್ ನೋಡಿ</string>
+    <string name="milk_yield_litres">ಹಾಲು ಉತ್ಪಾದನೆ (ಲೀಟರ್)</string>
+    <string name="feed_cost_rs">ಮೇವು ವೆಚ್ಚ (₹)</string>
+    <string name="daily_profit_rs">ದೈನಂದಿನ ಲಾಭ (₹)</string>
+
+    <string name="reminders">ಆರೋಗ್ಯ ಜ್ಾಂಪನೆಗಳು</string>
+    <string name="vaccination">ಲಸಿಕೆ</string>
+    <string name="deworming">ಹುಳು ನಿವಾರಣೆ</string>
+    <string name="set_reminder">ಜ್ಞಾಪನೆ ಹೊಂದಿಸಿ</string>
+    <string name="reminder_set">ಜ್ಞಾಪನೆಯನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಹೊಂದಿಸಲಾಗಿದೆ!</string>
+
+    <string name="seasonal_advice">ಋತುಮಾನದ ಸಲಹೆ</string>
+    <string name="suggestion_summer">ನೀರು ಹೆಚ್ಚಿಸಿ, ಹಸಿರು ಮೇವು ನೀಡಿ, ಶಾಖದ ಒತ್ತಡ ತಪ್ಪಿಸಿ.</string>
+    <string name="suggestion_monsoon">ಒಣ ಮೇವು ಖಚಿತಪಡಿಸಿಕೊಳ್ಳಿ, ಶಿಲೀಂಧ್ರ ಸೋಂಕು ತಡೆಗಟ್ಟಿ.</string>
+    <string name="suggestion_winter">ಮೆಕ್ಕೆಜೋಳ ಮತ್ತು ಹಿಂಡಿಯಂತಹ ಶಕ್ತಿ ನೀಡುವ ಆಹಾರ ಹೆಚ್ಚಿಸಿ.</string>
+
+    <string name="monthly_report">ಮಾಸಿಕ ವರದಿ</string>
+    <string name="total_cost">ಒಟ್ಟು ವೆಚ್ಚ</string>
+    <string name="market_cost">ಮಾರುಕಟ್ಟೆ ವೆಚ್ಚ</string>
+    <string name="savings">ಉಳಿತಾಯ</string>
+    <string name="market_cost_label">ಮಾರುಕಟ್ಟೆ ವೆಚ್ಚ</string>
+    <string name="savings_label">ಉಳಿತಾಯ</string>
+    <string name="cost_label">ವೆಚ್ಚ</string>
+    <string name="save_label">ನಿಮ್ಮ ಉಳಿತಾಯ</string>
+    <string name="feed_history">ಮೇವು ಇತಿಹಾಸ</string>
+
+    <string name="maize">ಮೆಕ್ಕೆಜೋಳ</string>
+    <string name="cottonseed">ಹತ್ತಿಬೀಜದ ಹಿಂಡಿ</string>
+    <string name="mineral_mix">ಖನಿಜ ಮಿಶ್ರಣ</string>
+    <string name="kg_unit">%1$d ಕೆಜಿ</string>
+
+    <string name="low_cost_plan">ಕಡಿಮೆ ವೆಚ್ಚದ ಯೋಜನೆ</string>
+    <string name="balanced_plan">ಸಮತೋಲಿತ ಯೋಜನೆ</string>
+    <string name="high_yield_plan">ಹೆಚ್ಚಿನ ಇಳುವರಿ ಯೋಜನೆ</string>
+    <string name="best_value">ಅತ್ಯುತ್ತಮ ಮೌಲ್ಯ</string>
+    <string name="recommended">ಶಿಫಾರಸು ಮಾಡಲಾಗಿದೆ</string>
+    <string name="max_profit">ಗರಿಷ್ಠ ಲಾಭ</string>
+    <string name="plan_saved">ಯೋಜನೆಯನ್ನು ಉಳಿಸಲಾಗಿದೆ</string>
+
+    <string name="no_milk_data">ಯಾವುದೇ ಹಾಲು ದಾಖಲಾಗಿಲ್ಲ</string>
+    <string name="no_data_available">ಯಾವುದೇ ಮಾಹಿತಿ ಲಭ್ಯವಿಲ್ಲ</string>
+    <string name="milk_trend_description">ಕಳೆದ 7 ದಿನಗಳ ಹಾಲಿನ ಪ್ರಮಾಣ</string>
+    <string name="cost_profit_label">ವೆಚ್ಚ ಮತ್ತು ಲಾಭ</string>
+    <string name="cost">ವೆಚ್ಚ</string>
+    <string name="profit">ಲಾಭ</string>
+    <string name="daily_avg_rs">ದೈನಂದಿನ ಸರಾಸರಿ (₹)</string>
+
+    <string name="msg_vaccination">ಹಸುವಿನ ಲಸಿಕೆ ಹಾಕುವ ಸಮಯ</string>
+    <string name="msg_deworming">ಹಸುವಿನ ಹುಳು ನಿವಾರಣೆಯ ಸಮಯ</string>
+    <string name="unnamed_cow">ಹೆಸರಿಲ್ಲದ ಹಸು</string>
+    <string name="please_enter_name">ದಯವಿಟ್ಟು ಹೆಸರು ನಮೂದಿಸಿ</string>
+    <string name="cow_added_success">ಹಸುವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಸೇರಿಸಲಾಗಿದೆ!</string>
+    <string name="milk_logged_msg">%1$s ಹಾಲಿನ ವಿವರ ದಾಖಲಾಗಿದೆ: %2$s ಲೀಟರ್</string>
+    <string name="fill_all_fields">ದಯವಿಟ್ಟು ಎಲ್ಲಾ ವಿವರಗಳನ್ನು ಭರ್ತಿ ಮಾಡಿ</string>
+    <string name="cow_saved">ಹಸುವಿನ ವಿವರ ಉಳಿಸಲಾಗಿದೆ</string>
+
+    <string name="search_hint">ಹಸುವಿನ ಹೆಸರು ಅಥವಾ ದಿನಾಂಕದ ಮೂಲಕ ಹುಡುಕಿ</string>
+    <string name="log_daily_milk">ದೈನಂದಿನ ಹಾಲಿನ ದಾಖಲೆ</string>
+    <string name="morning_milk">ಬೆಳಗಿನ ಹಾಲು (ಲೀಟರ್)</string>
+    <string name="evening_milk">ಸಂಜೆಯ ಹಾಲು (ಲೀಟರ್)</string>
+    <string name="save_morning_log">ಬೆಳಗಿನ ದಾಖಲೆ ಉಳಿಸಿ</string>
+    <string name="save_evening_log">ಸಂಜೆಯ ದಾಖಲೆ ಉಳಿಸಿ</string>
+    <string name="view_analytics">ವಿಶ್ಲೇಷಣೆ ನೋಡಿ</string>
+</resources>
