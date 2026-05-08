@@ -64,7 +64,7 @@ PashuAahar acts as:
 
 ⚙️ Installation
 1️⃣ Clone Repository
-git clone https://github.com/your-username/PashuAahar.git
+git clone https://github.com/Hitha1980/Pashu-Aahar
 
 2️⃣ Open in Android Studio
 Use Android Studio (latest version recommended)
